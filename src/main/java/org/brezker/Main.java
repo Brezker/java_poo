@@ -1,9 +1,11 @@
 package org.brezker;
 public class Main {
+    public static int sumar(int numero1, int numero2){
+        int resultado=numero1+numero2;
+        return resultado;
+    }
     public static void main(String[] args) {
-//        int counter = 1;
-        for (int i=1;i<=5;i++){
-            System.out.println("Numero "+i);
-        }
+        int resultado = sumar(10,6);
+        System.out.println("El resultado es: "+resultado);
     }
 }
